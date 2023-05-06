@@ -1,0 +1,44 @@
+* {box-sizing: border-box;}
+
+/* Style container */
+.input-container {
+  display: flex;
+  width: 25%;
+  margin-bottom: 15px;
+}
+
+/* Style des icons */
+.icon {
+  padding: 10px;
+  background: rgb(255, 255, 255);
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+/* Style de zone de text */
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+
+/* style de button*/
+.btn {
+  background-color: dodgerblue;
+  color: white;
+  padding: 15px 20px;
+  margin-left: 3%;
+  border: none;
+  cursor: pointer;
+  width: 10%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
